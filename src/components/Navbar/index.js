@@ -6,7 +6,10 @@ function Navbar() {
   return (
     <S.Nav>
      <S.NavbarContainer>
-       Olá
+       <S.NavLogo>
+         <S.NavIcon />
+         ULTRA
+       </S.NavLogo>
      </S.NavbarContainer>
     </S.Nav>
   )
