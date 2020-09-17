@@ -4,7 +4,9 @@ import * as S from './styles';
 
 function Navbar() {
   return (
-    <S.Container></S.Container>
+    <S.Nav>
+      Test
+    </S.Nav>
   )
 }
 
