@@ -39,7 +39,7 @@ function Hero({
           </S.HeroColumn>
           <S.HeroColumn>
             <S.ImageWrapper start={start}>
-              <Img src={img} alt={alt} />
+              <S.Img src={img} alt={alt} />
             </S.ImageWrapper>
           </S.HeroColumn>
         </S.HeroInfo>
