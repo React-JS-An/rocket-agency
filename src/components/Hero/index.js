@@ -1,11 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import * as S from './styles';
+import * as G from '../../globalStyles';
 
-function Hero({ lightBg }) {
+function Hero({
+  primary, 
+  lightBg, 
+  imgStart, 
+  lightTopLine, 
+  lightText, 
+  lightTextDesc,
+  topLine,
+  headLine,
+  description,
+  buttonLabel 
+}) {
   return (
     <S.Hero lightBg={lightBg}>
-      <h1>Hello!</h1>
+      <G.Container>
+        <S.HeroInfo imgStart={imgStart}>
+          <S.HeroColumn>
+            <S.TextWrapper>
+              <S.TopLine lightTopLine={lightTopLine}>{topLine}</S.TopLine>
+              <S.Heading lightText={lightText}>{headLine}</S.Heading>
+              <S.Subtitle lightTextDesc={lightTextDesc}>
+                {description}
+              </S.Subtitle>
+              <Link to="/sign-up">
+                <G.Button big fontBig primary>
+                  {buttonLabel}
+                </G.Button>
+              </Link>
+            </S.TextWrapper>
+          </S.HeroColumn>
+        </S.HeroInfo>
+      </G.Container>
     </S.Hero>
   )
 }
