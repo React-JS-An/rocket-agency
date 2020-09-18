@@ -10,6 +10,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
   
   const handleClick = () => setClicked(!clicked);
+  const handleCloseMenu = () => setClicked(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -30,7 +31,7 @@ function Navbar() {
     <IconContext.Provider value={{color: '#FFF'}}>
       <S.Nav>
       <S.NavbarContainer>
-        <S.NavLogo>
+        <S.NavLogo to="/" onClick={handleCloseMenu}>
           <S.NavIcon />
           Rocket
         </S.NavLogo>
