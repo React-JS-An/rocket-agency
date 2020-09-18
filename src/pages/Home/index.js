@@ -6,7 +6,7 @@ import {
   homeOjectThree, 
   homeOjectFour 
 } from './data';
-import Hero from '../../components/Hero';
+import { Hero, Price } from '../../components';
 
 function Home() {
   return (
@@ -14,6 +14,7 @@ function Home() {
       <Hero {...homeOjectOne} />
       <Hero {...homeOjectTwo} />
       <Hero {...homeOjectThree} />
+      <Price />
       <Hero {...homeOjectFour} />
     </>
   )
