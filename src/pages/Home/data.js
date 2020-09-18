@@ -1,7 +1,6 @@
 export const homeOjectOne = {
   lightBg: false,
   primary: true,
-  lightBg: false,
   imgStart: '',
   lightTopLine: true,
   lightText: true,
@@ -16,18 +15,17 @@ export const homeOjectOne = {
 };
 
 export const homeOjectTwo = {
-  lightBg: false,
-  primary: true,
-  lightBg: false,
-  imgStart: '',
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  primary: false,
+  imgStart: 'start',
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Agência Digital',
   headLine: 'Líderes Especialistas em negócios Online',
   description: 'Nós ajudamos empreendedores a aumentar suas receitas. Temos um Team de especialistas que podem ajudar nos objetivos da sua empresa.',
   buttonLabel: 'Registrar',
-  start: '',
+  start: true,
   img: require('../../assets/images/profile.jpeg'),
   alt: 'Image'
 };
@@ -35,7 +33,6 @@ export const homeOjectTwo = {
 export const homeOjectThree = {
   lightBg: false,
   primary: true,
-  lightBg: false,
   imgStart: '',
   lightTopLine: true,
   lightText: true,
@@ -52,8 +49,7 @@ export const homeOjectThree = {
 export const homeOjectFour = {
   lightBg: false,
   primary: true,
-  lightBg: false,
-  imgStart: '',
+  imgStart: 'start',
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
@@ -61,7 +57,7 @@ export const homeOjectFour = {
   headLine: 'Líderes Especialistas em negócios Online',
   description: 'Nós ajudamos empreendedores a aumentar suas receitas. Temos um Team de especialistas que podem ajudar nos objetivos da sua empresa.',
   buttonLabel: 'Registrar',
-  start: '',
+  start: true,
   img: require('../../assets/images/svg-3.svg'),
   alt: 'Image'
 };
