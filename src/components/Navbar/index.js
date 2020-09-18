@@ -32,7 +32,7 @@ function Navbar() {
       <S.NavbarContainer>
         <S.NavLogo>
           <S.NavIcon />
-          ULTRA
+          Rocket
         </S.NavLogo>
         <S.MobileIcon onClick={handleClick}>
           {clicked ? <FaTimes /> : <FaBars />}

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { FaMagento } from 'react-icons/fa';
+import { FaRocket } from 'react-icons/fa';
 
 import { Container } from '../../globalStyles';
 
@@ -34,7 +34,7 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(FaRocket)`
   margin-right: 0.5rem;
 `;
 
