@@ -28,7 +28,7 @@ export const NavLogo = styled(Link)`
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -89,6 +89,16 @@ export const NavItem = styled.li`
   }
 `;
 
+export const NavItemBtn = styled.li`
+  @media (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+`;
+
 export const NavLinks = styled(Link)`
   color: #fff;
   display: flex;
@@ -110,22 +120,13 @@ export const NavLinks = styled(Link)`
   }
 `;
 
-export const NavItemBtn = styled.li`
-  @media (max-width: 960px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-  }
-`;
 
 export const NavBtnLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 8px 1rem;
   height: 100%;
   width: 100%;
   border: none;
