@@ -14,7 +14,10 @@ function Hero({
   topLine,
   headLine,
   description,
-  buttonLabel 
+  buttonLabel,
+  start,
+  img,
+  alt 
 }) {
   return (
     <S.Hero lightBg={lightBg}>
@@ -33,6 +36,11 @@ function Hero({
                 </G.Button>
               </Link>
             </S.TextWrapper>
+          </S.HeroColumn>
+          <S.HeroColumn>
+            <S.ImageWrapper start={start}>
+              <Img src={img} alt={alt} />
+            </S.ImageWrapper>
           </S.HeroColumn>
         </S.HeroInfo>
       </G.Container>

@@ -64,3 +64,18 @@ export const Subtitle = styled.p`
   font-family: 1.125rem;
   line-height: 1.5rem;
 `;
+
+export const ImageWrapper = styled.div`
+  max-width: 555px;
+  display: flex;
+  justify-content: ${({start}) => (start ? 'flex-start' : 'flex-end')};
+`;
+
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+`;
