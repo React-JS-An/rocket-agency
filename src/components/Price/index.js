@@ -48,7 +48,7 @@ function Price() {
             <S.PricingCard to='/sign-up'>
               <S.PricingCardInfo>
                 <S.PricingCardIcon>
-                  <GiCutDiimport />
+                  <GiRock />
                 </S.PricingCardIcon>
                 <S.PricingCardPlan>Diamond Kings</S.PricingCardPlan>
                 <S.PricingCardCost>$999.99</S.PricingCardCost>
