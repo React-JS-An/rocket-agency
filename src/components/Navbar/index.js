@@ -42,20 +42,20 @@ function Navbar() {
             <S.NavLinks to="/">Home</S.NavLinks>
           </S.NavItem>
           <S.NavItem>
-            <S.NavLinks to="/services">Services</S.NavLinks>
+            <S.NavLinks to="/services">Serviços</S.NavLinks>
           </S.NavItem>
           <S.NavItem>
-            <S.NavLinks to="/products">Products</S.NavLinks>
+            <S.NavLinks to="/products">Produtos</S.NavLinks>
           </S.NavItem>
           <S.NavItemBtn>
             {button ? (
               <S.NavBtnLink to="/sign-up">
-                <Button primary>SignUp</Button>
+                <Button primary>Registrar</Button>
               </S.NavBtnLink>
               ) : (
               <S.NavBtnLink to="/sign-up">
                 <Button fontBig primary>
-                SignUp
+                Registrar
               </Button>
             </S.NavBtnLink>
           )}
