@@ -11,22 +11,22 @@ function Price() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <S.PricingSection>
         <S.PricingWrapper>
-          <S.PricingHeading>Our Services</S.PricingHeading>
+          <S.PricingHeading>Nossos Serviços</S.PricingHeading>
           <S.PricingContainer>
             <S.PricingCard to='/sign-up'>
               <S.PricingCardInfo>
                 <S.PricingCardIcon>
                   <GiRock />
                 </S.PricingCardIcon>
-                <S.PricingCardPlan>Starter Pack</S.PricingCardPlan>
-                <S.PricingCardCost>$99.99</S.PricingCardCost>
-                <S.PricingCardLength>per month</S.PricingCardLength>
+                <S.PricingCardPlan>Pacote Prata</S.PricingCardPlan>
+                <S.PricingCardCost>100 AOA</S.PricingCardCost>
+                <S.PricingCardLength>por mês</S.PricingCardLength>
                 <S.PricingCardFeatures>
-                  <S.PricingCardFeature>100 New Users</S.PricingCardFeature>
-                  <S.PricingCardFeature>$10,000 Budget</S.PricingCardFeature>
-                  <S.PricingCardFeature>Retargeting analytics</S.PricingCardFeature>
+                  <S.PricingCardFeature>100 Estudantes</S.PricingCardFeature>
+                  <S.PricingCardFeature>100 AOA</S.PricingCardFeature>
+                  <S.PricingCardFeature>Tudo de bom</S.PricingCardFeature>
                 </S.PricingCardFeatures>
-                <G.Button primary>Choose Plan</G.Button>
+                <G.Button primary>Escolha um Plano</G.Button>
               </S.PricingCardInfo>
             </S.PricingCard>
             <S.PricingCard to='/sign-up'>
@@ -34,15 +34,15 @@ function Price() {
                 <S.PricingCardIcon>
                   <GiCrystalBars />
                 </S.PricingCardIcon>
-                <S.PricingCardPlan>Gold Rush</S.PricingCardPlan>
-                <S.PricingCardCost>$299.99</S.PricingCardCost>
-                <S.PricingCardLength>per month</S.PricingCardLength>
+                <S.PricingCardPlan>Pacote Ouro</S.PricingCardPlan>
+                <S.PricingCardCost>200 AOA</S.PricingCardCost>
+                <S.PricingCardLength>por mês</S.PricingCardLength>
                 <S.PricingCardFeatures>
-                  <S.PricingCardFeature>1000 New Users</S.PricingCardFeature>
-                  <S.PricingCardFeature>$50,000 Budget</S.PricingCardFeature>
-                  <S.PricingCardFeature>Lead Gen Analytics</S.PricingCardFeature>
+                  <S.PricingCardFeature>1000 Estudantes</S.PricingCardFeature>
+                  <S.PricingCardFeature>200 AOA</S.PricingCardFeature>
+                  <S.PricingCardFeature>Nerdologia</S.PricingCardFeature>
                 </S.PricingCardFeatures>
-                <G.Button primary>Choose Plan</G.Button>
+                <G.Button primary>Escolha um Plano</G.Button>
               </S.PricingCardInfo>
             </S.PricingCard>
             <S.PricingCard to='/sign-up'>
@@ -50,13 +50,13 @@ function Price() {
                 <S.PricingCardIcon>
                   <GiRock />
                 </S.PricingCardIcon>
-                <S.PricingCardPlan>Diamond Kings</S.PricingCardPlan>
-                <S.PricingCardCost>$999.99</S.PricingCardCost>
-                <S.PricingCardLength>per month</S.PricingCardLength>
+                <S.PricingCardPlan>Pacote Diamante</S.PricingCardPlan>
+                <S.PricingCardCost>900 AOA</S.PricingCardCost>
+                <S.PricingCardLength>pOr mês</S.PricingCardLength>
                 <S.PricingCardFeatures>
-                  <S.PricingCardFeature>Unlimited Users</S.PricingCardFeature>
+                  <S.PricingCardFeature>Inlimitado</S.PricingCardFeature>
                 </S.PricingCardFeatures>
-                <G.Button primary>Choose Plan</G.Button>
+                <G.Button primary>Escolha um Plano</G.Button>
               </S.PricingCardInfo>
             </S.PricingCard>
           </S.PricingContainer>
