@@ -9,5 +9,8 @@ export const homeOjectOne = {
   topLine: 'Agência Digital',
   headLine: 'Líderes Especialistas em negócios Online',
   description: 'Nós ajudamos empreendedores a aumentar suas receitas. Temos um Team de especialistas que podem ajudar nos objetivos da sua empresa.',
-  buttonLabel: 'Registrar'
+  buttonLabel: 'Registrar',
+  start: '',
+  img: '',
+  alt: 'Image'
 };
